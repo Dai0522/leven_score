@@ -1,5 +1,4 @@
 #include "levenshtein.h"
-#include <stdio.h>
 
 // 检查utf-8字符所占字节数
 #define UTF8_CHAR_LEN( byte ) ((( 0xE5000000 >> (( byte >> 3 ) & 0x1e )) & 3 ) + 1)

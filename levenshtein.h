@@ -1,6 +1,7 @@
 #ifndef __LEVENSHTEIN_H_LOADED__
 #define __LEVENSHTEIN_H_LOADED__
 
+#include <stdint.h>
 #include <stddef.h>
 #include <stdlib.h>
 
